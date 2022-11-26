@@ -1,0 +1,19 @@
+{
+    "name": "php-dasar/random-number",
+    "description": "Library Untuk Generate Angka Otomatis",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "PhpDasar\\RandomNumber\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ahmad Susanto",
+            "email": "ahmadsusanto912@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    }
+}
