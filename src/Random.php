@@ -11,6 +11,6 @@ class Random
 
     public static function getString()
     {   
-        return vsprintf( '%s%s-%s-%s-%s-%s%s%s', str_split(bin2hex(random_bytes(16)), 4) );
+        return vsprintf( '%s%s-%s-%s-%s-%s%s%s', str_split(bin2hex(random_bytes(32)), 4) );
     }
 }
